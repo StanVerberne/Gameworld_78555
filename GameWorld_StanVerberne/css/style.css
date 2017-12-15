@@ -1,0 +1,457 @@
+body {
+  background-image: url("../images/sky4.jpg");
+  background-size: cover;
+}
+
+#main-nav {
+  background-color: white;
+  margin: 0 auto;
+  width: 970px;
+  height: 61px;
+  border-radius: 15px;
+}
+
+#main-header {
+  margin-left: 275px;
+}
+
+#main-footer {
+  width: 970px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #494a46;
+  text-align: center;
+  border-radius: 15px;
+  font-family: rockwell;
+  color: white;
+  font-size: 24px;
+}
+
+#main-screen {
+  width: 970px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #494a46;
+  position: relative;
+  border-radius: 15px;
+}
+
+#main-screen-games {
+  width: 970px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #494a46;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  width: 60px;
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#main-nav li a {
+  display: inline-block;
+  width: 100px;
+  height: 37px;
+  background-color: white;
+  color: red;
+  padding-top: 19px;
+  margin-left: 30px;
+  font-family: rockwell;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#main-nav li {
+  display: inline;
+  width: 60px;
+}
+
+#main-nav li a:hover {
+  background-color: #cdd0ca;
+  height: 42px;
+  color: orange;
+}
+
+a {
+  transition: color 0.18s ease;
+  , background-color: 0.18s ease;
+  , border-color: black;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  font-family: rockwell;
+}
+
+#Playstation a {
+  width: 230px;
+  height: 179px;
+  background-color: white;
+  position: absolute;
+  border-radius: 20px;
+  left: 70px;
+  bottom: 40px;
+  font-family: impact;
+  background-image: url("../images/playstation1.jpg");
+  text-align: center;
+  background-size: cover;
+  font-size: bold;
+  color: white;
+}
+
+#Xbox a {
+  width: 230px;
+  height: 179px;
+  background-color: white;
+  position: absolute;
+  border-radius: 20px;
+  bottom: 40px;
+  left: 370px;
+  text-align: center;
+  color: white;
+  font-size: bold;
+  font-family: impact;
+  background-size: cover;
+  background-image: url("../images/xboxone.jpg");
+}
+
+#PC a {
+  width: 230px;
+  height: 179px;
+  background-color: white;
+  position: absolute;
+  border-radius: 20px;
+  border: black;
+  bottom: 40px;
+  right: 70px;
+  text-align: center;
+  color: white;
+  font-size: bold;
+  font-family: impact;
+  background-size: cover;
+  background-image: url("../images/steam1.png");
+}
+
+.background-main-screen {
+  background-position: center;
+  background-image: url("../images/rocketleague.png");
+  background-repeat: repeat-x;
+  height: 340px;
+  width: 900px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 35px;
+  border-radius: 15px;
+  margin-right: 40px;
+  hline: 10px;
+  .hline {
+    width: 100%;
+    height: 1px;
+    background: white;
+  }
+}
+
+#welcome {
+  font-family: rockwell;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 70px;
+  color: white;
+}
+
+#gameshop {
+  font-family: rockwell;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 70px;
+  color: white;
+}
+
+hr {
+  height: 2px;
+  width: 350px;
+  background-color: white;
+  border-color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.product-item {
+  margin-top: 50px;
+  width: 210px;
+  height: 265px;
+  background-color: white;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.gameName {
+  color: black;
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  font-size: 20px;
+  font-family: rockwell;
+}
+
+.order-button {
+  width: 210px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: -25px;
+  background-color: red;
+  font-family: rockwell;
+}
+
+#playstation .order-button {
+  background-color: blue;
+}
+
+#playstation .productPrice {
+  background-color: blue;
+}
+
+#xbox .order-button {
+  background-color: green;
+}
+
+#xbox .productPrice {
+  background-color: green;
+}
+
+#steam .order-button {
+  background-color: grey;
+}
+
+#steam .productPrice {
+  background-color: grey;
+}
+
+#allgames .order-button {
+  background-color: red;
+}
+
+#allgames .productPrice {
+  background-color: red;
+}
+
+.productPrice {
+  width: 70px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+  top: 160px;
+  background-color: red;
+  font-family: rockwell;
+}
+
+#about-us {
+  margin-left: 70px;
+  font-family: rockwell;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  top: 100px;
+}
+
+#about-us h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+#about {
+  margin-left: 70px;
+  font-family: rockwell;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  margin-right: 540px;
+}
+
+#GoogleMaps {
+  float: right;
+  width: 500px;
+  height: 350px;
+  border-radius: 15px;
+  position: absolute;
+  right: 30px;
+  top: 80px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #aba8a7;
+  /* Gray border */
+  border-radius: 20px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: rockwell;
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: rockwell;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+  border-radius: 20px;
+  background-color: #494a46;
+  padding: 20px;
+}
+
+#country {
+  font-family: rockwell;
+  color: white;
+}
+
+#first-name {
+  font-family: rockwell;
+  color: white;
+}
+
+#last-name {
+  font-family: rockwell;
+  color: white;
+}
+
+#message {
+  font-family: rockwell;
+  color: white;
+}
+
+.Playstation {
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/playstation.jpg");
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  background-size: cover;
+}
+
+.Xbox {
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/xbox-logo1.png");
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  background-size: cover;
+  background-color: transparant;
+}
+
+.PC {
+  border-radius: 5px;
+  width: 50px;
+  height: 40px;
+  background-image: url("../images/steam1.png");
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  background-size: cover;
+}
+
+#checkout-table {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 70px;
+  margin-right: 230px;
+  height: 30px;
+  font-family: rockwell;
+  font-size: 20px;
+  color: red;
+}
+
+#checkout-table thead {
+  font-family: rockwell;
+  font-size: 15px;
+  border-collapse: collapse;
+  height: 40px;
+  background-color: red;
+  color: white;
+}
+
+#checkout-table tfoot {
+  text-align: right;
+  right: 0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #8f9090;
+}
+
+#contact {
+  margin-left: 18px;
+  font-family: rockwell;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding: 0px;
+}
+
+#Checkout {
+  margin-left: 69px;
+  font-family: rockwell;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+}
+
+.clearfix {
+  clear: both;
+  margin-bottom: 50px;
+}
